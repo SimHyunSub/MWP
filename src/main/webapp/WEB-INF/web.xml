@@ -4,4 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>Calc</servlet-name>
+  	<display-name>Calc</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.MavenProject.Calc</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Calc</servlet-name>
+  	<url-pattern>/Calc</url-pattern>
+  </servlet-mapping>
 </web-app>
